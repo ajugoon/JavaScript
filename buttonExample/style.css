@@ -11,6 +11,8 @@
     border: 15px solid white;
     padding: 10px; /* This the space between the text and the red border */
     border-bottom-left-radius: 25px;
+    color: grey; 
+    border-color:purple;
   }
 
   h1.option2 {
