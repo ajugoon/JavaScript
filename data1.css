@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, yellow 50%, lightblue 0%);   
+    height:100vh;
+    text-align:center;
+}
+
+.canvasContainer {
+    max-height: 500px;
+    max-width: 700px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+
+#myLineChart {
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+
+h1.option1 {
+    border: 5px solid DodgerBlue;
+    padding: 10px; /* This the space between the text and the red border */
+    border-bottom-left-radius: 25px;
+}
+
+h2.option1 {
+    border: 5px dotted orange;
+    padding: 10px; /* This the space between the text and the orange border */
+    border-bottom-right-radius: 25px;
+}
+
+p.option1 {
+	color: red;
+}
+
+p.option2 {
+	color: green;
+}
