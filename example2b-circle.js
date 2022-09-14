@@ -1,19 +1,19 @@
-// establish the value of PI as a constant value
-// define some variables and give placeholder values where needed 
+// This is a simple program that allows the user to input a radius and 
+// have an area of a circle calculated.
+// Reference: https://www.codecademy.com/article/getting-user-input-in-node-js
+
+const prompt = require('prompt-sync')({sigint: true});
+
+const name = prompt('What is your name? ');
+console.log(`Hey there ${name}!`);
+
+const num = prompt('Enter a number: ');
+
 const PI = 3.14159;
 let area = 0;
+let radius = Number(num);
 
-// reference: https://www.codecademy.com/article/getting-user-input-in-node-js
-const readline = require('readline').createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+// the area of the circle is given by A = PI * (r ** 2)
+area = PI * (radius ** 2);
 
-readline.question('What is the radius of the circle?', radius => {
-  console.log(`The Radius of the circle is: ${radius} cm`);
-  readline.close();
-  // the area of the circle is given by A = PI * (r ** 2)
-  area = (PI * radius * radius);
-  console.log("The Area of the Circle is: " + area + " sq. units")
-});
-
+console.log("The Area of the Circle is: " + area + " sq. units")
