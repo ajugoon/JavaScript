@@ -6,6 +6,7 @@ const prompt = require('prompt-sync')({sigint: true});
 
 const name = prompt('What is your name? ');
 console.log(`Hey there ${name}!`);
+console.log("Hey there " + name + "!")
 
 const num = prompt('Enter a number: ');
 
