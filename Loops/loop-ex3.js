@@ -9,3 +9,6 @@ for (let i = 1; i <= n; i++) {
 }
 
 console.log('sum:', sum);
+
+console.log('Notice that the console will clear in 4 seconds');
+setTimeout(() => {console.clear()}, 4000);
