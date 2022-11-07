@@ -6,7 +6,7 @@ let sum = 0;
 let number = 0;
 
 do {
-    sum += number;
+    sum += number; // this is the same as: sum = sum + number
     number = parseInt(prompt('Enter a number: '));
 } while(number >= 0)
 
